@@ -8,38 +8,33 @@
 
 	</head>
 	<body>
+
 	<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">
     Sign Up
 </button>
 
-<div class="modal fade" id="signupModal" tabindex="-1">
+<div class="modal show" id="signupModal" tabindex="-1" style="display:none;">
     <div class="modal-dialog">
         <div class="modal-content">
 
             <div class="modal-header">
                 <h5 class="modal-title">Create Account</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                <button type="button" class="btn-close"></button>
             </div>
 
             <form>
                 <div class="modal-body">
-
                     <label class="form-label">Email address</label>
                     <input type="email" class="form-control" placeholder="Enter email">
                     <small class="form-text text-muted">
                         Your information is safe with us.
                     </small>
 
-                    <br><br>
-
-                    <label class="form-label">Password</label>
+                    <label class="form-label mt-3">Password</label>
                     <input type="password" class="form-control" placeholder="Password">
 
-                    <br>
-
-                    <label class="form-label">Confirm Password</label>
+                    <label class="form-label mt-3">Confirm Password</label>
                     <input type="password" class="form-control" placeholder="Confirm Password">
-
                 </div>
 
                 <div class="modal-footer">
