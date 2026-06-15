@@ -9,44 +9,46 @@
 	</head>
 	<body>
 	<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">
-  Sign Up
+    Sign Up
 </button>
 
-<div class="modal fade" id="signupModal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
+<div class="modal fade" id="signupModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
 
-      <div class="modal-header">
-        <h5 class="modal-title">Create Account</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
+            <div class="modal-header">
+                <h5 class="modal-title">Create Account</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
 
-      <div class="modal-body">
-        <div class="mb-3">
-          <label class="form-label">Email address</label>
-          <input type="email" class="form-control" placeholder="Enter email">
-          <small class="form-text text-muted">
-            Your information is safe with us.
-          </small>
+            <form>
+                <div class="modal-body">
+
+                    <label class="form-label">Email address</label>
+                    <input type="email" class="form-control" placeholder="Enter email">
+                    <small class="form-text text-muted">
+                        Your information is safe with us.
+                    </small>
+
+                    <br><br>
+
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control" placeholder="Password">
+
+                    <br>
+
+                    <label class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" placeholder="Confirm Password">
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+            </form>
+
         </div>
-
-        <div class="mb-3">
-          <label class="form-label">Password</label>
-          <input type="password" class="form-control" placeholder="Password">
-        </div>
-
-        <div class="mb-3">
-          <label class="form-label">Confirm Password</label>
-          <input type="password" class="form-control" placeholder="Confirm Password">
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <button type="submit" class="btn btn-success">Submit</button>
-      </div>
-
     </div>
-  </div>
 </div>
 
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
